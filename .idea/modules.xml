@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gestion-bibliografia.iml" filepath="$PROJECT_DIR$/gestion-bibliografia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestion-bibliografia-controller/gestion-bibliografia-controller.iml" filepath="$PROJECT_DIR$/gestion-bibliografia-controller/gestion-bibliografia-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestion-bibliografia-dao/gestion-bibliografia-dao.iml" filepath="$PROJECT_DIR$/gestion-bibliografia-dao/gestion-bibliografia-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestion-bibliografia-model/gestion-bibliografia-model.iml" filepath="$PROJECT_DIR$/gestion-bibliografia-model/gestion-bibliografia-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestion-bibliografia-views/gestion-bibliografia-views.iml" filepath="$PROJECT_DIR$/gestion-bibliografia-views/gestion-bibliografia-views.iml" />
+    </modules>
+  </component>
+</project>

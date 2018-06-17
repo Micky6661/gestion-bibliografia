@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gestion-bibliografia-controller" />
+        <module name="gestion-bibliografia-dao" />
+        <module name="gestion-bibliografia-model" />
+        <module name="gestion-bibliografia-views" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gestion-bibliografia" target="1.5" />
+      <module name="gestion-bibliografia-controller" target="1.5" />
+      <module name="gestion-bibliografia-dao" target="1.5" />
+      <module name="gestion-bibliografia-db" target="1.5" />
+      <module name="gestion-bibliografia-model" target="1.5" />
+      <module name="gestion-bibliografia-views" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
