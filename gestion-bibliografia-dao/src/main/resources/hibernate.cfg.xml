@@ -19,6 +19,12 @@
         <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
 
         <!-- Mapping With Model Class Containing Annotations -->
-        <mapping class="com.jcg.hibernate.maven.User" />
+        <mapping class="py.com.gestion.bibliografia.model.Autor" />
+        <mapping class="py.com.gestion.bibliografia.model.Carrera" />
+        <mapping class="py.com.gestion.bibliografia.model.Editorial" />
+        <mapping class="py.com.gestion.bibliografia.model.Facultad" />
+        <mapping class="py.com.gestion.bibliografia.model.Libro" />
+        <mapping class="py.com.gestion.bibliografia.model.Materia" />
+
     </session-factory>
 </hibernate-configuration>

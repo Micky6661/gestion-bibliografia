@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d339e2be-f051-4ab2-932e-a9abfcd2ac6f" name="Default" comment="" />
+    <list default="true" id="d339e2be-f051-4ab2-932e-a9abfcd2ac6f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/java/py/com/gestion/bibliografia/db/DBTransactions.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/java/py/com/gestion/bibliografia/dao/AutorDao.java" afterPath="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/java/py/com/gestion/bibliografia/dao/AutorDao.java" />
+      <change beforePath="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/resources/hibernate.cfg.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/gestion-bibliografia-controller/target/" />
@@ -17,35 +22,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AutorDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gestion-bibliografia-dao/src/main/java/py/com/gestion/bibliografia/dao/AutorDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gestion-bibliografia-dao/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,10 +63,12 @@
         <option value="$PROJECT_DIR$/gestion-bibliografia-views/src/main/java/py/com/gestion/bibliografia/views/MateriaController.java" />
         <option value="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/java/py/com/gestion/bibliografia/dao/AutorController.java" />
         <option value="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/resources/hibernate.cfg.xml  .fxml" />
-        <option value="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/gestion-bibliografia-controller/pom.xml" />
         <option value="$PROJECT_DIR$/gestion-bibliografia-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/java/py/com/gestion/bibliografia/db/Transactions.java" />
+        <option value="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/java/py/com/gestion/bibliografia/dao/AutorDao.java" />
+        <option value="$PROJECT_DIR$/gestion-bibliografia-dao/src/main/java/py/com/gestion/bibliografia/db/DBTransactions.java" />
       </list>
     </option>
   </component>
@@ -122,41 +108,6 @@
             <path>
               <item name="gestion-bibliografia" type="b2602c69:ProjectViewProjectNode" />
               <item name="gestion-bibliografia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gestion-bibliografia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gestion-bibliografia" type="462c0819:PsiDirectoryNode" />
-              <item name="gestion-bibliografia-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gestion-bibliografia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gestion-bibliografia" type="462c0819:PsiDirectoryNode" />
-              <item name="gestion-bibliografia-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gestion-bibliografia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gestion-bibliografia" type="462c0819:PsiDirectoryNode" />
-              <item name="gestion-bibliografia-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gestion-bibliografia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gestion-bibliografia" type="462c0819:PsiDirectoryNode" />
-              <item name="gestion-bibliografia-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gestion-bibliografia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gestion-bibliografia" type="462c0819:PsiDirectoryNode" />
-              <item name="gestion-bibliografia-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,16 +241,15 @@
       <updated>1529012866449</updated>
       <workItem from="1529012872053" duration="1665000" />
       <workItem from="1529207071194" duration="7579000" />
-      <workItem from="1529274416012" duration="35000" />
+      <workItem from="1529274416012" duration="1764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9279000" />
+    <option name="totallyTimeSpent" value="11008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-46" y="14" width="1368" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -315,7 +265,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -355,6 +305,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="e#874#875#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#941#942#0" expanded="false" />
+            <element signature="e#969#970#0" expanded="false" />
+            <element signature="e#1011#1012#0" expanded="false" />
+            <element signature="e#1048#1049#0" expanded="false" />
+            <element signature="e#1109#1110#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1194#1195#0" expanded="false" />
+            <element signature="e#1223#1224#0" expanded="false" />
+            <element signature="e#1267#1268#0" expanded="false" />
+            <element signature="e#1303#1304#0" expanded="false" />
+            <element signature="e#1339#1340#0" expanded="false" />
+            <element signature="e#1371#1372#0" expanded="false" />
+            <element signature="e#1421#1422#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1498#1499#0" expanded="false" />
+            <element signature="e#1529#1530#0" expanded="false" />
+            <element signature="e#1577#1578#0" expanded="false" />
+            <element signature="e#1617#1618#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -428,6 +400,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#874#875#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#941#942#0" expanded="false" />
+            <element signature="e#969#970#0" expanded="false" />
+            <element signature="e#1011#1012#0" expanded="false" />
+            <element signature="e#1048#1049#0" expanded="false" />
+            <element signature="e#1109#1110#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1194#1195#0" expanded="false" />
+            <element signature="e#1223#1224#0" expanded="false" />
+            <element signature="e#1267#1268#0" expanded="false" />
+            <element signature="e#1303#1304#0" expanded="false" />
+            <element signature="e#1339#1340#0" expanded="false" />
+            <element signature="e#1371#1372#0" expanded="false" />
+            <element signature="e#1421#1422#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1498#1499#0" expanded="false" />
+            <element signature="e#1529#1530#0" expanded="false" />
+            <element signature="e#1577#1578#0" expanded="false" />
+            <element signature="e#1617#1618#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -574,17 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gestion-bibliografia-dao/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gestion-bibliografia-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -599,6 +582,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.6.Final/hibernate-core-4.3.6.Final.jar!/org/hibernate/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.6.Final/hibernate-core-4.3.6.Final.jar!/org/hibernate/SharedSessionContract.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/io/Serializable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gestion-bibliografia-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -607,11 +614,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gestion-bibliografia-dao/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="69" lean-forward="true" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gestion-bibliografia-dao/src/main/java/py/com/gestion/bibliografia/dao/AutorDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="43">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gestion-bibliografia-dao/src/main/java/py/com/gestion/bibliografia/db/DBTransactions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

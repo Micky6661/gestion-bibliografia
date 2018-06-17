@@ -1,54 +1,49 @@
 package py.com.gestion.bibliografia.dao;
 
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.cfg.Configuration;
-import org.hibernate.service.ServiceRegistry;
+import py.com.gestion.bibliografia.db.DBTransactions;
 import py.com.gestion.bibliografia.model.Autor;
 
 public class AutorDao {
 
-    static Session session;
-    static SessionFactory sessionFactory;
+    DBTransactions<Autor> autorDBTransactions;
 
-    public Autor select(Autor autor) {
+    public Autor select(Autor autor) throws Exception {
+
         Autor response = null;
-
+        try {
+            autorDBTransactions.select(autor);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new Exception();
+        }
 
         return response;
     }
 
-    public void insert(Autor autor) {
+    public void insert(Autor autor) throws Exception {
         try {
-            session = buildSessionFactory().openSession();
-            session.beginTransaction();
-
-        }catch (Exception e){
+            autorDBTransactions.insert(autor);
+        } catch (Exception e) {
             e.printStackTrace();
-        }finally {
-            
+            throw new Exception();
         }
     }
 
-    public void update(){
-
+    public void update(Autor autor) throws Exception {
+        try {
+            autorDBTransactions.update(autor);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new Exception();
+        }
     }
 
-    public void delete(){
-
-    }
-
-    private static SessionFactory buildSessionFactory() {
-        // Creating Configuration Instance & Passing Hibernate Configuration File
-        Configuration configObj = new Configuration();
-        configObj.configure("hibernate.cfg.xml");
-
-        // Since Hibernate Version 4.x, ServiceRegistry Is Being Used
-        ServiceRegistry serviceRegistryObj = new StandardServiceRegistryBuilder().applySettings(configObj.getProperties()).build();
-        // Creating Hibernate SessionFactory Instance
-        sessionFactory = configObj.buildSessionFactory(serviceRegistryObj);
-
-        return sessionFactory;
+    public void delete(Autor autor) throws Exception {
+        try {
+            autorDBTransactions.delete(autor);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new Exception();
+        }
     }
 }
