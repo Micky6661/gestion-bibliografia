@@ -33,6 +33,7 @@
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.18.1-GA" level="project" />
     <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" name="Maven: org.jboss:jandex:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.21" level="project" />
     <orderEntry type="module" module-name="gestion-bibliografia-model" />
   </component>
 </module>
