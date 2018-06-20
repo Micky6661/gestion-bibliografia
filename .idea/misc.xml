@@ -9,6 +9,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/gestion-bibliografia-db/pom.xml" />
+        <option value="$PROJECT_DIR$/gestion-bibliografia-service/pom.xml" />
       </set>
     </option>
   </component>

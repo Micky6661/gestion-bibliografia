@@ -18,6 +18,7 @@
       <module name="gestion-bibliografia-dao" target="1.5" />
       <module name="gestion-bibliografia-db" target="1.5" />
       <module name="gestion-bibliografia-model" target="1.5" />
+      <module name="gestion-bibliografia-service" target="1.5" />
       <module name="gestion-bibliografia-views" target="1.5" />
     </bytecodeTargetLevel>
   </component>

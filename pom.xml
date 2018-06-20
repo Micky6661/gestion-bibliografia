@@ -14,6 +14,7 @@
         <module>gestion-bibliografia-model</module>
         <module>gestion-bibliografia-db</module>
         <module>gestion-bibliografia-dao</module>
+        <module>gestion-bibliografia-service</module>
     </modules>
 
     <properties>
